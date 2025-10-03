@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ho1{
+    position: relative;
+    width: 4vw;
+    margin-left: 3vw;
+}
+.ta1{
+    position: relative;
+    margin-left: 8vw;
+    top: -3.4vw;
+    color: brown;
+}
+.cc{
+    position: relative;
+    z-index: 2;
+    margin-left: 15vw;
+    margin-top: 5vw;
+    border: 1px solid black;
+    border-radius: 3vw;
+    width: 65vw;
+    height: 88vh;
+    background-color: white;
+    
+}
+.log{
+    position: absolute;
+    z-index: 3;
+    margin-top: -39vw;
+    margin-left: 55vw;
+}
+.pital{
+    position: absolute;
+    border: 1px soild;
+    border-radius: 3vw;
+    z-index: 3;
+    width: 30vw;
+    height: 35vw;
+    margin-top: -38vw;
+    margin-left: 18vw;
+}
+.face{
+    position: absolute;
+    z-index: 3;
+    width: 3.5vw;
+    margin-top: -6vw;
+    margin-left: 58vw;
+}
+.insta{
+    position: absolute;
+    z-index: 3;
+    width: 3vw;
+    margin-top: -5.7vw;
+    margin-left: 62vw;
+}
+.goo{
+    position: absolute;
+    z-index: 3;
+    width: 2.9vw;
+    margin-top: -5.7vw;
+    margin-left: 66vw;
+}
+.user{
+    position: absolute;
+    z-index: 3;
+    width: 3vw;
+    margin-top: -33vw;
+    margin-left: 54vw;
+}
+.user0{
+     position: absolute;
+    z-index: 3;
+  font-size: 1.8vw;
+    margin-top: -32.5vw;
+    margin-left: 58vw;
+}
+.user1{
+    position: absolute;
+    z-index: 3;
+   
+    margin-top: -28vw;
+    margin-left: 57vw;
+}
