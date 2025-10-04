@@ -316,9 +316,10 @@ cursor: pointer;
     position: relative;
     z-index: 2;
     border: 1px solid black;
-    width: 60vw;
+    border-radius: 2vw;
+    width: 70vw;
     height: 98vh;
-    margin-left: 15vw;
+    margin-left: 10vw;
     margin-top: 5vw;
     background-color: antiquewhite;
 }
@@ -326,5 +327,221 @@ cursor: pointer;
     position: absolute;
     z-index: 3;
     margin-top: -44vw;
-    margin-left: 35vw;
+    margin-left: 37vw;
+}
+.nn{
+    position: absolute;
+    z-index: 3;
+    margin-left: 20vw;
+    margin-top: -38vw;
+    font-size: 1.5vw;
+}
+.nn0{
+    position: absolute;
+    z-index: 3;
+    width: 1.9vw;
+    margin-left: 17vw;
+    margin-top: -38vw;
+}
+.nn1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 17vw;
+    margin-top: -36vw;
+}
+.nam{
+    position: absolute;
+    z-index: 3;
+    margin-left: 20vw;
+    margin-top: -33vw;
+    font-size: 1.5vw;
+}
+.nam0{
+    position: absolute;
+    z-index: 3;
+    width: 2vw;
+    margin-left: 17vw;
+    margin-top: -30.7vw;
+}
+.nam1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 17vw;
+    margin-top: -31vw;
+}
+.age{
+    position: absolute;
+    z-index: 3;
+    margin-left: 20vw;
+    margin-top: -28vw;
+    font-size: 1.5vw;
+}
+.age0{
+    position:absolute;
+    z-index: 3;
+    width: 1.9vw;
+    margin-left: 17vw;
+    margin-top: -23.5vw;
+}
+.age1{
+    position: absolute;
+    z-index: 3;
+    margin-top: -26vw;
+    margin-left: 17vw;
+}
+.gen{
+    position: absolute;
+    z-index: 3;
+    margin-left: 20vw;
+    margin-top: -23vw;
+    font-size: 1.5vw;
+}
+.gen0{
+    position: absolute;
+    z-index: 3;
+    width: 1.9vw;
+    margin-left: 17vw;
+    margin-top: -16vw;
+}
+.gen1{
+    position: absolute;
+    z-index: 3;
+    margin-top: -21vw;
+    margin-left: 17vw;
+}
+.dob{
+    position: absolute;
+    z-index: 3;
+    margin-left: 20vw;
+    margin-top: -18vw;
+    font-size: 1.5vw;
+}
+.dob0{
+    position: absolute;
+    z-index: 3;
+    width: 1.9vw;
+    margin-left: 17vw;
+    margin-top: -8.5vw;
+}
+.dob1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 17vw;
+    margin-top: -16vw;
+}
+.ema{
+    position: absolute;
+    z-index: 3;
+    margin-left: 59vw;
+    margin-top: -50.5vw;
+    font-size: 1.5vw;
+}
+.ema0{
+    position: absolute;
+    z-index: 3;
+    width: 1.9vw;
+    margin-left: 56vw;
+    margin-top: -38.3vw;
+}
+.ema1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 57vw;
+    margin-top: -48vw;
+}
+.num{
+    position: absolute;
+    z-index: 3;
+    margin-left: 59vw;
+    margin-top: -45vw;
+    font-size: 1.5vw;
+}
+.num0{
+    position: absolute;
+    z-index: 3;
+    width: 1.9vw;
+    margin-left: 56vw;
+    margin-top: -30.5vw;
+}
+.num1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 57vw;
+    margin-top: -43vw;
+}
+.pro{
+    position: absolute;
+    z-index: 3;
+    margin-left: 59vw;
+    margin-top: -40vw;
+    font-size: 1.5vw;
+}
+.pro0{
+    position: absolute;
+    z-index: 3;
+    width: 1.9vw;
+    margin-left: 56vw;
+    margin-top: -23.4vw;
+}
+.pro1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 57vw;
+    margin-top: -38vw;
+}
+.add{
+    position: absolute;
+    z-index: 3;
+    margin-left: 59vw;
+    margin-top: -35vw;
+    font-size: 1.5vw;
+}
+.add0{
+    position: absolute;
+    z-index: 3;
+    width: 1.9vw;
+    margin-left: 56vw;
+    margin-top: -16vw;
+}
+.add1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 57vw;
+    margin-top: -33vw;
+}
+.gro{
+    position: absolute;
+    z-index: 3;
+    margin-left: 59vw;
+    margin-top: -30vw;
+    font-size: 1.5vw;
+}
+.gro0{
+    position: absolute;
+    z-index: 3;
+    width: 1.9vw;
+    margin-left: 56vw;
+    margin-top: -8.5vw;
+}
+.gro1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 57vw;
+    margin-top: -28vw;
+}
+.chec{
+    position: absolute;
+    z-index: 3;
+    margin-left: 58vw;
+    margin-top: -26vw;
+}
+.sub{
+    position: absolute;
+    z-index: 3;
+    margin-left: 37vw;
+    margin-top: -29vw;
+    width: 10vw;
+    border-radius: 2vw;
+    font-size: 1.3vw;
+    background-color: green;
 }
