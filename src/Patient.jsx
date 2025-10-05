@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Patient.css';
 import axios from 'axios';
 import hos from './assets/hos.jpg';
-import one from './assets/one.jpg';
+import patievideo from './assets/videos/patie.mp4';
 import patho from './assets/patho.jpg';
 import varma from './assets/varma.jpg';
 import ana from './assets/ana.jpg';
@@ -25,6 +25,7 @@ import num from './assets/num.jpg';
 import pro from './assets/pro.jpg';
 import add from './assets/add.jpg';
 import gro from './assets/gro.jpg';
+import path from './assets/path.jpg'
 export default function Patient() {
   const[id,setId]=useState('');
     const[name,setName]=useState('');
@@ -63,7 +64,7 @@ export default function Patient() {
     <div>
       <img className='ho11' src={hos}/>
       <h1 className='ta11'>Hospital</h1>
-      <img className='pat' src={one}/>
+     <video autoPlay loop muted><source src={patievideo} type='video/mp4' className='pat0'/></video>
       <h1 className='doctor'>Doctor List</h1>
       <img className="patho" src={patho}/>
       <h1 className='raja'>Dr. Rajavigneshwari N</h1>
@@ -113,6 +114,7 @@ export default function Patient() {
       <img className='pro0' src={pro}/>
       <img className='add0' src={add}/>
       <img className='gro0' src={gro}/>
+      <img className='path' src={path}/>
        <label className='nn'>patient ID:</label><br/>
       <input type='text' onChange={event=>{setId(event.target.value)}} className='nn1'/><br/>
       <label className='nam'>Name:</label><br/>

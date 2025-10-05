@@ -13,11 +13,11 @@
      top: -3.4vw;
      color: brown;
 }
-.pat{
+.pat0{
     position: relative;
-    width: 80vw;
-    height: 100vh;
-    margin-left: 8vw;
+    width: 100vw;
+    height: 120vh;
+    left: 18vw;
 }
 .doctor{
     position: relative;
@@ -544,4 +544,12 @@ cursor: pointer;
     border-radius: 2vw;
     font-size: 1.3vw;
     background-color: green;
+}
+.path{
+    position: absolute;
+    z-index: 3;
+    width: 18vw;
+    border-radius: 2vw;
+    margin-left: 32vw;
+    margin-top: -30vw;
 }
